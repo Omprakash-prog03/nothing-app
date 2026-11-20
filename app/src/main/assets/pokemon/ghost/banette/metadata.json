@@ -1,0 +1,18 @@
+{
+  "dexId": 354,
+  "name": "Banette",
+  "profileType": "ghost",
+  "officialTypes": [
+    "ghost"
+  ],
+  "role": "secondary",
+  "description": "Born when a discarded doll gained a spirit, driven by a grudge it quietly channels.",
+  "artwork": "pokemon/ghost/banette/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ghost/banette/idle/",
+    "charging": "pokemon/ghost/banette/charging/",
+    "full_charge": "pokemon/ghost/banette/full_charge/",
+    "disconnect": "pokemon/ghost/banette/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

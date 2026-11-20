@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build outputs
+app/build/
+build/
+
+# Generated wrapper jar is intentionally NOT ignored here since it isn't
+# committed in the first place (see README "Build & run" — it couldn't be
+# downloaded in the sandbox); gradle/wrapper/gradle-wrapper.properties IS
+# committed so `gradle wrapper` regenerates the matching jar.

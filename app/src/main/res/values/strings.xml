@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POKÉCHARGE</string>
+    <string name="notification_channel_charging">Charging companion</string>
+    <string name="notification_channel_charging_desc">Shows your Pokémon while the phone charges</string>
+    <string name="notification_channel_complete">Full charge</string>
+    <string name="notification_channel_complete_desc">Tells you when charging finishes</string>
+    <string name="widget_description">Shows your selected Pokémon, battery level and charging state.</string>
+</resources>

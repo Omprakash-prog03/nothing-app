@@ -1,0 +1,19 @@
+{
+  "dexId": 376,
+  "name": "Metagross",
+  "profileType": "steel",
+  "officialTypes": [
+    "steel",
+    "psychic"
+  ],
+  "role": "primary",
+  "description": "Four brains linked together make it smarter than a supercomputer, humming with current.",
+  "artwork": "pokemon/steel/metagross/artwork.webp",
+  "animations": {
+    "idle": "pokemon/steel/metagross/idle/",
+    "charging": "pokemon/steel/metagross/charging/",
+    "full_charge": "pokemon/steel/metagross/full_charge/",
+    "disconnect": "pokemon/steel/metagross/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

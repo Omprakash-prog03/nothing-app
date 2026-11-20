@@ -1,0 +1,18 @@
+{
+  "dexId": 25,
+  "name": "Pikachu",
+  "profileType": "electric",
+  "officialTypes": [
+    "electric"
+  ],
+  "role": "primary",
+  "description": "Its electric sacs build charge. It releases sparks when startled, delighted, or charging.",
+  "artwork": "pokemon/electric/pikachu/artwork.webp",
+  "animations": {
+    "idle": "pokemon/electric/pikachu/idle/",
+    "charging": "pokemon/electric/pikachu/charging/",
+    "full_charge": "pokemon/electric/pikachu/full_charge/",
+    "disconnect": "pokemon/electric/pikachu/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

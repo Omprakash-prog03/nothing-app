@@ -1,0 +1,18 @@
+{
+  "dexId": 133,
+  "name": "Eevee",
+  "profileType": "normal",
+  "officialTypes": [
+    "normal"
+  ],
+  "role": "primary",
+  "description": "Its genetic structure is unstable. Eevee waits patiently, ready to evolve the instant it finds purpose.",
+  "artwork": "pokemon/normal/eevee/artwork.webp",
+  "animations": {
+    "idle": "pokemon/normal/eevee/idle/",
+    "charging": "pokemon/normal/eevee/charging/",
+    "full_charge": "pokemon/normal/eevee/full_charge/",
+    "disconnect": "pokemon/normal/eevee/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

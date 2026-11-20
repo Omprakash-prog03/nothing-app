@@ -1,0 +1,19 @@
+{
+  "dexId": 95,
+  "name": "Onix",
+  "profileType": "rock",
+  "officialTypes": [
+    "rock",
+    "ground"
+  ],
+  "role": "primary",
+  "description": "As it grows, the stone portions of its body harden into something like a diamond.",
+  "artwork": "pokemon/rock/onix/artwork.webp",
+  "animations": {
+    "idle": "pokemon/rock/onix/idle/",
+    "charging": "pokemon/rock/onix/charging/",
+    "full_charge": "pokemon/rock/onix/full_charge/",
+    "disconnect": "pokemon/rock/onix/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

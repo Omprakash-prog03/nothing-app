@@ -1,0 +1,18 @@
+{
+  "dexId": 471,
+  "name": "Glaceon",
+  "profileType": "ice",
+  "officialTypes": [
+    "ice"
+  ],
+  "role": "primary",
+  "description": "It can freeze the air around it, scattering crystals that form unique patterns while charging.",
+  "artwork": "pokemon/ice/glaceon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ice/glaceon/idle/",
+    "charging": "pokemon/ice/glaceon/charging/",
+    "full_charge": "pokemon/ice/glaceon/full_charge/",
+    "disconnect": "pokemon/ice/glaceon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

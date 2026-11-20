@@ -1,0 +1,19 @@
+{
+  "dexId": 149,
+  "name": "Dragonite",
+  "profileType": "dragon",
+  "officialTypes": [
+    "dragon",
+    "flying"
+  ],
+  "role": "primary",
+  "description": "An extremely rarely seen marine Pokemon, said to be able to circle the globe in days.",
+  "artwork": "pokemon/dragon/dragonite/artwork.webp",
+  "animations": {
+    "idle": "pokemon/dragon/dragonite/idle/",
+    "charging": "pokemon/dragon/dragonite/charging/",
+    "full_charge": "pokemon/dragon/dragonite/full_charge/",
+    "disconnect": "pokemon/dragon/dragonite/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

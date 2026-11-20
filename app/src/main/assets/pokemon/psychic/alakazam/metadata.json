@@ -1,0 +1,18 @@
+{
+  "dexId": 65,
+  "name": "Alakazam",
+  "profileType": "psychic",
+  "officialTypes": [
+    "psychic"
+  ],
+  "role": "secondary",
+  "description": "Its brain continually grows, said to remember everything from the moment of birth.",
+  "artwork": "pokemon/psychic/alakazam/artwork.webp",
+  "animations": {
+    "idle": "pokemon/psychic/alakazam/idle/",
+    "charging": "pokemon/psychic/alakazam/charging/",
+    "full_charge": "pokemon/psychic/alakazam/full_charge/",
+    "disconnect": "pokemon/psychic/alakazam/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

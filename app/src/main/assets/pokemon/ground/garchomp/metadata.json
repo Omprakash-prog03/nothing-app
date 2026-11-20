@@ -1,0 +1,19 @@
+{
+  "dexId": 445,
+  "name": "Garchomp",
+  "profileType": "ground",
+  "officialTypes": [
+    "dragon",
+    "ground"
+  ],
+  "role": "secondary",
+  "description": "Resembling a jet plane, it tucks its wings close as dust gathers along its scales.",
+  "artwork": "pokemon/ground/garchomp/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ground/garchomp/idle/",
+    "charging": "pokemon/ground/garchomp/charging/",
+    "full_charge": "pokemon/ground/garchomp/full_charge/",
+    "disconnect": "pokemon/ground/garchomp/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

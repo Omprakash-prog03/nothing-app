@@ -1,0 +1,19 @@
+{
+  "dexId": 248,
+  "name": "Tyranitar",
+  "profileType": "rock",
+  "officialTypes": [
+    "rock",
+    "dark"
+  ],
+  "role": "secondary",
+  "description": "So powerful it can topple a mountain, yet it rests calmly while gathering energy.",
+  "artwork": "pokemon/rock/tyranitar/artwork.webp",
+  "animations": {
+    "idle": "pokemon/rock/tyranitar/idle/",
+    "charging": "pokemon/rock/tyranitar/charging/",
+    "full_charge": "pokemon/rock/tyranitar/full_charge/",
+    "disconnect": "pokemon/rock/tyranitar/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

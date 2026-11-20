@@ -1,0 +1,18 @@
+{
+  "dexId": 68,
+  "name": "Machamp",
+  "profileType": "fighting",
+  "officialTypes": [
+    "fighting"
+  ],
+  "role": "secondary",
+  "description": "With four muscled arms, it can throw a flurry of punches in a controlled training rhythm.",
+  "artwork": "pokemon/fighting/machamp/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fighting/machamp/idle/",
+    "charging": "pokemon/fighting/machamp/charging/",
+    "full_charge": "pokemon/fighting/machamp/full_charge/",
+    "disconnect": "pokemon/fighting/machamp/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

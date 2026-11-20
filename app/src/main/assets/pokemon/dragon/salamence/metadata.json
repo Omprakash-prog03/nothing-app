@@ -1,0 +1,19 @@
+{
+  "dexId": 373,
+  "name": "Salamence",
+  "profileType": "dragon",
+  "officialTypes": [
+    "dragon",
+    "flying"
+  ],
+  "role": "secondary",
+  "description": "Once it grows wings, it is said to have finally gained the ability to fly into the heavens.",
+  "artwork": "pokemon/dragon/salamence/artwork.webp",
+  "animations": {
+    "idle": "pokemon/dragon/salamence/idle/",
+    "charging": "pokemon/dragon/salamence/charging/",
+    "full_charge": "pokemon/dragon/salamence/full_charge/",
+    "disconnect": "pokemon/dragon/salamence/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

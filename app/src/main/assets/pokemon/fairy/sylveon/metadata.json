@@ -1,0 +1,18 @@
+{
+  "dexId": 700,
+  "name": "Sylveon",
+  "profileType": "fairy",
+  "officialTypes": [
+    "fairy"
+  ],
+  "role": "primary",
+  "description": "It is able to emit a soothing aura from its ribbonlike feelers to calm hostilities.",
+  "artwork": "pokemon/fairy/sylveon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fairy/sylveon/idle/",
+    "charging": "pokemon/fairy/sylveon/charging/",
+    "full_charge": "pokemon/fairy/sylveon/full_charge/",
+    "disconnect": "pokemon/fairy/sylveon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

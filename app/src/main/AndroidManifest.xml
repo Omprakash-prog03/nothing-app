@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Battery/charging broadcasts themselves need no permission. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Android 13+ requires runtime consent to post the charging-session
+         notification that is our only compliant way to surface the
+         experience when the app isn't already in the foreground. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- The charging companion only ever runs its foreground service while
+         a charger is physically connected, for the single purpose of
+         keeping the charging-session notification/activity alive. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <!-- Requests the ability to present the charging screen as a
+         full-screen notification launch. On Android 14+ this is subject to
+         additional platform/Play policy restrictions for apps that are not
+         calling/alarm apps - see README "Lock screen & full-screen intent
+         limitations". The app checks NotificationManager.canUseFullScreenIntent()
+         at runtime and falls back to a tappable notification when denied;
+         it never claims the restricted behaviour is guaranteed. -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <!-- Used only to re-evaluate "are we already charging?" right after a
+         reboot, since ACTION_POWER_CONNECTED does not fire for a charger
+         that was already attached before boot completed. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".PokeChargeApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PokeCharge"
+        android:enableOnBackInvokedCallback="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PokeCharge"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dedicated, visually-separate charging experience. Launched either
+             by the user tapping the charging notification, or automatically
+             via a full-screen intent when the platform permits it (see
+             ChargingForegroundService). Never launched directly by a plain
+             background broadcast receiver, per Android's background-activity
+             start restrictions. -->
+        <activity
+            android:name=".ui.charging.ChargingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PokeCharge.Charging"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true" />
+
+        <service
+            android:name=".charging.service.ChargingForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Shows a Pokemon charging-companion animation and keeps its notification alive while a charger is connected" />
+        </service>
+
+        <!-- ACTION_POWER_CONNECTED / ACTION_POWER_DISCONNECTED are protected,
+             system-only broadcasts and remain deliverable to manifest
+             (exported) receivers even under Android 8+ implicit-broadcast
+             restrictions. BOOT_COMPLETED lets us detect "charger was already
+             attached before the phone finished booting". -->
+        <!-- No custom <receiver> permission is declared: ACTION_POWER_CONNECTED,
+             ACTION_POWER_DISCONNECTED and BOOT_COMPLETED are all listed as
+             "protected broadcasts" in the Android platform manifest, so only
+             the system itself is allowed to send them - no third-party app
+             can spoof this receiver. -->
+        <receiver
+            android:name=".charging.receiver.PowerConnectionReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".widget.PokeChargeWidgetProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/pokecharge_widget_info" />
+        </receiver>
+
+    </application>
+</manifest>

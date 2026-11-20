@@ -1,0 +1,18 @@
+{
+  "dexId": 150,
+  "name": "Mewtwo",
+  "profileType": "psychic",
+  "officialTypes": [
+    "psychic"
+  ],
+  "role": "primary",
+  "description": "Created by genetic manipulation, its psychic power is said to be the strongest of all.",
+  "artwork": "pokemon/psychic/mewtwo/artwork.webp",
+  "animations": {
+    "idle": "pokemon/psychic/mewtwo/idle/",
+    "charging": "pokemon/psychic/mewtwo/charging/",
+    "full_charge": "pokemon/psychic/mewtwo/full_charge/",
+    "disconnect": "pokemon/psychic/mewtwo/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

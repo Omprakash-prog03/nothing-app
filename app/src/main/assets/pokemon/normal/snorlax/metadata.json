@@ -1,0 +1,18 @@
+{
+  "dexId": 143,
+  "name": "Snorlax",
+  "profileType": "normal",
+  "officialTypes": [
+    "normal"
+  ],
+  "role": "secondary",
+  "description": "A famously sleepy Pokemon. It stirs only for food, or for a slow, contented charge.",
+  "artwork": "pokemon/normal/snorlax/artwork.webp",
+  "animations": {
+    "idle": "pokemon/normal/snorlax/idle/",
+    "charging": "pokemon/normal/snorlax/charging/",
+    "full_charge": "pokemon/normal/snorlax/full_charge/",
+    "disconnect": "pokemon/normal/snorlax/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

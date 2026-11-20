@@ -1,0 +1,18 @@
+{
+  "dexId": 59,
+  "name": "Arcanine",
+  "profileType": "fire",
+  "officialTypes": [
+    "fire"
+  ],
+  "role": "secondary",
+  "description": "A Pokemon admired for its beauty and speed, radiating steady heat as it charges.",
+  "artwork": "pokemon/fire/arcanine/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fire/arcanine/idle/",
+    "charging": "pokemon/fire/arcanine/charging/",
+    "full_charge": "pokemon/fire/arcanine/full_charge/",
+    "disconnect": "pokemon/fire/arcanine/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

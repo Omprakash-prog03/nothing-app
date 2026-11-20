@@ -1,0 +1,19 @@
+{
+  "dexId": 715,
+  "name": "Noivern",
+  "profileType": "flying",
+  "officialTypes": [
+    "flying",
+    "dragon"
+  ],
+  "role": "secondary",
+  "description": "Called the Baron of the Night Sky, it navigates using sound waves from its large ears.",
+  "artwork": "pokemon/flying/noivern/artwork.webp",
+  "animations": {
+    "idle": "pokemon/flying/noivern/idle/",
+    "charging": "pokemon/flying/noivern/charging/",
+    "full_charge": "pokemon/flying/noivern/full_charge/",
+    "disconnect": "pokemon/flying/noivern/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

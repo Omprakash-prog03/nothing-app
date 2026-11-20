@@ -1,0 +1,19 @@
+{
+  "dexId": 1,
+  "name": "Bulbasaur",
+  "profileType": "grass",
+  "officialTypes": [
+    "grass",
+    "poison"
+  ],
+  "role": "primary",
+  "description": "A strange seed was planted on its back at birth. It grows alongside the bulb, soaking in energy.",
+  "artwork": "pokemon/grass/bulbasaur/artwork.webp",
+  "animations": {
+    "idle": "pokemon/grass/bulbasaur/idle/",
+    "charging": "pokemon/grass/bulbasaur/charging/",
+    "full_charge": "pokemon/grass/bulbasaur/full_charge/",
+    "disconnect": "pokemon/grass/bulbasaur/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

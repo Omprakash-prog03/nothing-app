@@ -1,0 +1,18 @@
+{
+  "dexId": 359,
+  "name": "Absol",
+  "profileType": "dark",
+  "officialTypes": [
+    "dark"
+  ],
+  "role": "secondary",
+  "description": "Sensing coming disasters, it appears before people - a quiet, watchful presence.",
+  "artwork": "pokemon/dark/absol/artwork.webp",
+  "animations": {
+    "idle": "pokemon/dark/absol/idle/",
+    "charging": "pokemon/dark/absol/charging/",
+    "full_charge": "pokemon/dark/absol/full_charge/",
+    "disconnect": "pokemon/dark/absol/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

@@ -1,0 +1,18 @@
+{
+  "dexId": 470,
+  "name": "Leafeon",
+  "profileType": "grass",
+  "officialTypes": [
+    "grass"
+  ],
+  "role": "secondary",
+  "description": "Its body is always cool, filled with clean air through photosynthesis as it charges.",
+  "artwork": "pokemon/grass/leafeon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/grass/leafeon/idle/",
+    "charging": "pokemon/grass/leafeon/charging/",
+    "full_charge": "pokemon/grass/leafeon/full_charge/",
+    "disconnect": "pokemon/grass/leafeon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

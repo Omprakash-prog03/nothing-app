@@ -1,0 +1,19 @@
+{
+  "dexId": 448,
+  "name": "Lucario",
+  "profileType": "fighting",
+  "officialTypes": [
+    "fighting",
+    "steel"
+  ],
+  "role": "primary",
+  "description": "It reads auras to sense feelings and intentions, channelling focused energy as it charges.",
+  "artwork": "pokemon/fighting/lucario/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fighting/lucario/idle/",
+    "charging": "pokemon/fighting/lucario/charging/",
+    "full_charge": "pokemon/fighting/lucario/full_charge/",
+    "disconnect": "pokemon/fighting/lucario/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

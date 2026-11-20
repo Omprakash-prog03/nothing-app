@@ -1,0 +1,18 @@
+{
+  "dexId": 135,
+  "name": "Jolteon",
+  "profileType": "electric",
+  "officialTypes": [
+    "electric"
+  ],
+  "role": "secondary",
+  "description": "Stores a vast amount of negative ions in its fur, discharging crackling energy.",
+  "artwork": "pokemon/electric/jolteon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/electric/jolteon/idle/",
+    "charging": "pokemon/electric/jolteon/charging/",
+    "full_charge": "pokemon/electric/jolteon/full_charge/",
+    "disconnect": "pokemon/electric/jolteon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

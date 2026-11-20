@@ -1,0 +1,19 @@
+{
+  "dexId": 212,
+  "name": "Scizor",
+  "profileType": "bug",
+  "officialTypes": [
+    "bug",
+    "steel"
+  ],
+  "role": "secondary",
+  "description": "Its body is covered with a hard, metallic shell that it hones like a blade.",
+  "artwork": "pokemon/bug/scizor/artwork.webp",
+  "animations": {
+    "idle": "pokemon/bug/scizor/idle/",
+    "charging": "pokemon/bug/scizor/charging/",
+    "full_charge": "pokemon/bug/scizor/full_charge/",
+    "disconnect": "pokemon/bug/scizor/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}
