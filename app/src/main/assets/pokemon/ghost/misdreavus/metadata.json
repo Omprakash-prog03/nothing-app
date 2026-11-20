@@ -1,0 +1,18 @@
+{
+  "dexId": 200,
+  "name": "Misdreavus",
+  "profileType": "ghost",
+  "officialTypes": [
+    "ghost"
+  ],
+  "role": "primary",
+  "description": "It enjoys tormenting people with a chilling cry, flickering at the edge of sight.",
+  "artwork": "pokemon/ghost/misdreavus/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ghost/misdreavus/idle/",
+    "charging": "pokemon/ghost/misdreavus/charging/",
+    "full_charge": "pokemon/ghost/misdreavus/full_charge/",
+    "disconnect": "pokemon/ghost/misdreavus/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. The real UI is 100% Jetpack Compose
+         (see ui/theme/Theme.kt) - this XML theme only controls the window
+         chrome Compose cannot: splash screen, status/nav bar, and the
+         charging activity's lock-screen flags. -->
+    <style name="Theme.PokeCharge" parent="Theme.SplashScreen">
+        <item name="android:windowBackground">@color/pc_black</item>
+        <item name="windowSplashScreenBackground">@color/pc_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.PokeCharge.Main</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/pc_black</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/pc_black</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+    <style name="Theme.PokeCharge.Main" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/pc_black</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/pc_black</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/pc_black</item>
+    </style>
+
+    <!-- Dedicated charging-screen theme: full black, no action bar, and
+         allowed to draw over the lock screen via the activity's
+         showWhenLocked/turnScreenOn manifest attributes (set on the
+         <activity> itself, these are the Android-supported, non-bypassing
+         way to do this - see README). -->
+    <style name="Theme.PokeCharge.Charging" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/pc_black</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/pc_black</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/pc_black</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+</resources>

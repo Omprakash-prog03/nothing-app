@@ -1,0 +1,18 @@
+{
+  "dexId": 134,
+  "name": "Vaporeon",
+  "profileType": "water",
+  "officialTypes": [
+    "water"
+  ],
+  "role": "secondary",
+  "description": "Its cells resemble water molecules, letting it dissolve into any current of energy.",
+  "artwork": "pokemon/water/vaporeon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/water/vaporeon/idle/",
+    "charging": "pokemon/water/vaporeon/charging/",
+    "full_charge": "pokemon/water/vaporeon/full_charge/",
+    "disconnect": "pokemon/water/vaporeon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

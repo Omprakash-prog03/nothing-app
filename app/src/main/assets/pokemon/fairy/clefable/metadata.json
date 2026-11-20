@@ -1,0 +1,18 @@
+{
+  "dexId": 36,
+  "name": "Clefable",
+  "profileType": "fairy",
+  "officialTypes": [
+    "fairy"
+  ],
+  "role": "secondary",
+  "description": "A timid fairy Pokemon rarely seen, said to dance beneath the full moon.",
+  "artwork": "pokemon/fairy/clefable/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fairy/clefable/idle/",
+    "charging": "pokemon/fairy/clefable/charging/",
+    "full_charge": "pokemon/fairy/clefable/full_charge/",
+    "disconnect": "pokemon/fairy/clefable/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

@@ -1,0 +1,18 @@
+{
+  "dexId": 4,
+  "name": "Charmander",
+  "profileType": "fire",
+  "officialTypes": [
+    "fire"
+  ],
+  "role": "primary",
+  "description": "The flame on its tail shows its feelings. It burns brighter the more energy it receives.",
+  "artwork": "pokemon/fire/charmander/artwork.webp",
+  "animations": {
+    "idle": "pokemon/fire/charmander/idle/",
+    "charging": "pokemon/fire/charmander/charging/",
+    "full_charge": "pokemon/fire/charmander/full_charge/",
+    "disconnect": "pokemon/fire/charmander/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

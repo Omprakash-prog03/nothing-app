@@ -1,0 +1,19 @@
+{
+  "dexId": 169,
+  "name": "Crobat",
+  "profileType": "poison",
+  "officialTypes": [
+    "poison",
+    "flying"
+  ],
+  "role": "secondary",
+  "description": "Flies so silently through the night that it is dubbed the ninja of the skies.",
+  "artwork": "pokemon/poison/crobat/artwork.webp",
+  "animations": {
+    "idle": "pokemon/poison/crobat/idle/",
+    "charging": "pokemon/poison/crobat/charging/",
+    "full_charge": "pokemon/poison/crobat/full_charge/",
+    "disconnect": "pokemon/poison/crobat/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

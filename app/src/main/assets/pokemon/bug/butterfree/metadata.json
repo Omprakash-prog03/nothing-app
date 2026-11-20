@@ -1,0 +1,19 @@
+{
+  "dexId": 12,
+  "name": "Butterfree",
+  "profileType": "bug",
+  "officialTypes": [
+    "bug",
+    "flying"
+  ],
+  "role": "primary",
+  "description": "In battle it flaps its wings to release highly toxic dust into the air.",
+  "artwork": "pokemon/bug/butterfree/artwork.webp",
+  "animations": {
+    "idle": "pokemon/bug/butterfree/idle/",
+    "charging": "pokemon/bug/butterfree/charging/",
+    "full_charge": "pokemon/bug/butterfree/full_charge/",
+    "disconnect": "pokemon/bug/butterfree/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

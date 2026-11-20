@@ -1,0 +1,18 @@
+{
+  "dexId": 27,
+  "name": "Sandshrew",
+  "profileType": "ground",
+  "officialTypes": [
+    "ground"
+  ],
+  "role": "primary",
+  "description": "It burrows deep underground in arid locations, curling up as it stores energy.",
+  "artwork": "pokemon/ground/sandshrew/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ground/sandshrew/idle/",
+    "charging": "pokemon/ground/sandshrew/charging/",
+    "full_charge": "pokemon/ground/sandshrew/full_charge/",
+    "disconnect": "pokemon/ground/sandshrew/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

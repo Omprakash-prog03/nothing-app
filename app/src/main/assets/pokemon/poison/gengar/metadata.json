@@ -1,0 +1,19 @@
+{
+  "dexId": 94,
+  "name": "Gengar",
+  "profileType": "poison",
+  "officialTypes": [
+    "ghost",
+    "poison"
+  ],
+  "role": "primary",
+  "description": "On the night of a full moon, it likes to mimic the shadows of people and laugh quietly.",
+  "artwork": "pokemon/poison/gengar/artwork.webp",
+  "animations": {
+    "idle": "pokemon/poison/gengar/idle/",
+    "charging": "pokemon/poison/gengar/charging/",
+    "full_charge": "pokemon/poison/gengar/full_charge/",
+    "disconnect": "pokemon/poison/gengar/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

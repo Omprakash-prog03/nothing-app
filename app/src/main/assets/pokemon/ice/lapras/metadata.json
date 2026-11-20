@@ -1,0 +1,19 @@
+{
+  "dexId": 131,
+  "name": "Lapras",
+  "profileType": "ice",
+  "officialTypes": [
+    "water",
+    "ice"
+  ],
+  "role": "secondary",
+  "description": "A gentle Pokemon that glides calmly, humming softly as frost gathers along its shell.",
+  "artwork": "pokemon/ice/lapras/artwork.webp",
+  "animations": {
+    "idle": "pokemon/ice/lapras/idle/",
+    "charging": "pokemon/ice/lapras/charging/",
+    "full_charge": "pokemon/ice/lapras/full_charge/",
+    "disconnect": "pokemon/ice/lapras/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

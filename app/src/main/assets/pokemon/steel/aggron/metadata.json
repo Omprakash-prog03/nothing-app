@@ -1,0 +1,19 @@
+{
+  "dexId": 306,
+  "name": "Aggron",
+  "profileType": "steel",
+  "officialTypes": [
+    "steel",
+    "rock"
+  ],
+  "role": "secondary",
+  "description": "It constantly patrols its territory, its steel armor gleaming as it charges steadily.",
+  "artwork": "pokemon/steel/aggron/artwork.webp",
+  "animations": {
+    "idle": "pokemon/steel/aggron/idle/",
+    "charging": "pokemon/steel/aggron/charging/",
+    "full_charge": "pokemon/steel/aggron/full_charge/",
+    "disconnect": "pokemon/steel/aggron/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

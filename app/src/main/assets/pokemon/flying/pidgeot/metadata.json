@@ -1,0 +1,19 @@
+{
+  "dexId": 18,
+  "name": "Pidgeot",
+  "profileType": "flying",
+  "officialTypes": [
+    "normal",
+    "flying"
+  ],
+  "role": "primary",
+  "description": "It flies at Mach 2 speed, seeking prey from a graceful soaring altitude.",
+  "artwork": "pokemon/flying/pidgeot/artwork.webp",
+  "animations": {
+    "idle": "pokemon/flying/pidgeot/idle/",
+    "charging": "pokemon/flying/pidgeot/charging/",
+    "full_charge": "pokemon/flying/pidgeot/full_charge/",
+    "disconnect": "pokemon/flying/pidgeot/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}

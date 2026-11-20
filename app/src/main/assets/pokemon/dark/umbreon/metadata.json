@@ -1,0 +1,18 @@
+{
+  "dexId": 197,
+  "name": "Umbreon",
+  "profileType": "dark",
+  "officialTypes": [
+    "dark"
+  ],
+  "role": "primary",
+  "description": "When darkness falls, the rings on its body glow a sinister yellow-ring, red as it charges.",
+  "artwork": "pokemon/dark/umbreon/artwork.webp",
+  "animations": {
+    "idle": "pokemon/dark/umbreon/idle/",
+    "charging": "pokemon/dark/umbreon/charging/",
+    "full_charge": "pokemon/dark/umbreon/full_charge/",
+    "disconnect": "pokemon/dark/umbreon/disconnect/"
+  },
+  "animationRenderer": "procedural-canvas"
+}
